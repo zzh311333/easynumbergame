@@ -90,7 +90,7 @@ function App() {
           <div className="progress-track">
             <div
               className="progress-fill"
-              style={{ width: `${((currentLevel - 1) / TOTAL_LEVELS) * 100}%` }}
+              style={{ width: `${(currentLevel / TOTAL_LEVELS) * 100}%` }}
             />
           </div>
         </div>
